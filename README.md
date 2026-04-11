@@ -52,7 +52,6 @@ PhytoScan uses a Convolutional Neural Network (CNN) model to analyze leaf images
   Treatment suggestion
 
   
---
 
 
 ![PhytoScan UI](assets/screenshot1.png)
