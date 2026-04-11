@@ -5,18 +5,16 @@
   A deep learning-based web application to detect potato leaf diseases such as Early Blight, Late Blight, and Healthy.
   The system provides accurate predictions along with confidence scores and treatment suggestions.
 
---
+
 ## Problem Statement
 
   Early detection of plant diseases is crucial to prevent crop loss. Manual identification can be difficult and requires expert knowledge.
 
---
 
 ## Solution
 
 PhytoScan uses a Convolutional Neural Network (CNN) model to analyze leaf images and classify diseases instantly through a simple web interface.
 
---
 
 ## Features
 
@@ -32,7 +30,7 @@ PhytoScan uses a Convolutional Neural Network (CNN) model to analyze leaf images
   
   Clean and interactive UI
   
-  --
+
   
 ## Tech Stack
   Python
@@ -45,7 +43,7 @@ PhytoScan uses a Convolutional Neural Network (CNN) model to analyze leaf images
   
   Pillow
 
-  --
+
 ## Output
   Disease classification
   
@@ -53,7 +51,7 @@ PhytoScan uses a Convolutional Neural Network (CNN) model to analyze leaf images
   
   Treatment suggestion
 
-  --
+  
 
 
 ![PhytoScan UI](assets/screenshot(1).png)
