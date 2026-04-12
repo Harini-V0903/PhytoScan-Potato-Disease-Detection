@@ -12,8 +12,10 @@ st.set_page_config(page_title="PhytoScan 🌿", layout="centered")
 @st.cache_resource
 def load_model():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    return tf.keras.models.load_model(os.path.join(BASE_DIR, "potato_model.h5"))
-
+    return tf.keras.models.load_model(
+    os.path.join(BASE_DIR, "potato_model.h5"),
+    compile=False
+)
 model = load_model()
 class_names = ["Early Blight", "Late Blight", "Healthy"]
 
